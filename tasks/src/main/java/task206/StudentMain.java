@@ -35,7 +35,7 @@ public class StudentMain {
                 sum += (int) entry.getValue().get(i);
             }
             double reuslt = sum;
-            System.out.println(entry.getKey() + " " + (reuslt / entry.getValue().size()));
+            System.out.println(entry.getKey() + " " + reuslt / entry.getValue().size());
         }
     }
 }
